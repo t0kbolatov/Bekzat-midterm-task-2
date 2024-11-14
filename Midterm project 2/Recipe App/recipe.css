@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff914d;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  header input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .recipe-card {
+    background-color: #fff3e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .recipe-card h3 {
+    color: #ff914d;
+    padding: 10px;
+  }
+  
+  #recipe-details {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #recipe-details.hidden {
+    display: none;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #ff914d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .favorite-card {
+    background-color: #fff3e0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+  }
+
+  
+
+
+#suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    z-index: 100;
+  }
+  
+  #suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+  }
+  
+  #suggestions div:hover {
+    background-color: #ff914d;
+    color: #fff;
+  }
+
+
+
+
+  header {
+    position: relative;
+  }
+  
+  #suggestions {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 100;
+  }
+  
+  #suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #suggestions div:hover {
+    background-color: #ff914d;
+    color: #fff;
+  }
+  
+  .recipe-card p {
+    padding: 10px;
+    color: #555;
+    font-size: 0.9em;
+  }
+
+
+
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 100;
+  }
+  
+  #suggestions div {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #suggestions div:hover {
+    background-color: #ff914d;
+    color: #fff;
+  }
+  
+  .recipe-card p {
+    padding: 10px;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  #recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .recipe-card {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .recipe-card h3 {
+    margin: 10px;
+  }
+  
+  .recipe-card p {
+    margin: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+
+.hidden {
+    display: none;
+  }
+  
+  #favorites-section {
+    margin-top: 20px;
+  }
+  
+  #toggle-favorites-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff914d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #toggle-favorites-btn:hover {
+    background-color: #ff6d1a;
+  }
+  

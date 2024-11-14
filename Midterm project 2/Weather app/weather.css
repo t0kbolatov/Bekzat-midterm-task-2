@@ -1,0 +1,89 @@
+General Styles
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6d90b8;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  #suggestions {
+    position: absolute;
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  #suggestions div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #location-btn, #unit-toggle {
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #current-weather, #forecast {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  #forecast-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .forecast-day {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .forecast-day img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
